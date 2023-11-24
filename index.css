@@ -24,7 +24,7 @@ body {
 
   align-items: center;
   flex-direction: column;
-  background-color: #000000;
+  background-color: #F2DF58;
   justify-content: center;
   position: relative;
 }
@@ -34,8 +34,8 @@ button {
     font-size: 1.4em;
     padding: 30px 40px;
     text-decoration: none;
-    background-color: #DAD9D9;
-    color: #000000;
+    background-color: #080808;
+    color: rgb(252, 255, 253);
     border-radius: 40px;
     font-family: Padaloma, sans-serif;
     transform: scale(0.9);
