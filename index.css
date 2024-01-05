@@ -22,6 +22,9 @@ body {
   width: 100%;
   display: flex;
 
+  background-image: url("https://www.88kitten.com/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
   align-items: center;
   flex-direction: column;
   background-color: #F2DF58;
@@ -31,16 +34,22 @@ body {
 
 
 button {
-    font-size: 1.4em;
+    font-size: 1.8em;
     padding: 30px 40px;
     text-decoration: none;
-    background-color: #080808;
-    color: rgb(252, 255, 253);
-    border-radius: 40px;
-    font-family: Padaloma, sans-serif;
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+    font-family: "Ms Gothic", "sans serif";
     transform: scale(0.9);
+    font-weight: 900;
     animation: pulse 0.7s infinite;
-    border: none;
+    border: none black;
+    background-color: #C0C0C0;
+    border: 3px solid;
+    border-top-color: black;
+    border-right-color: black;
+    border-bottom-color: black;
+    border-left-color: black;
     cursor: pointer;
 }
 
